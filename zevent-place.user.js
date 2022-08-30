@@ -2,7 +2,7 @@
 
 // @name         Zevent Place - Avamind
 // @namespace    https://github.com/bunlan-g/zevent-place-avamind
-// @version      0.1.1
+// @version      0.1.2
 // @description  Mettons de l'amour dans la vie (et sur ZPlace aussi) !
 // @author       Baron Ululating
 // @match        https://place.zevent.fr/*
@@ -17,6 +17,7 @@
 // Basé sur le script du r/place utilisé par r/france
 
 window.addEventListener("load", () => {
+    // overley helper
     const overlay = document.createElement("img");
     const xOffset = 10;
     const yOffset = 15;
@@ -25,4 +26,10 @@ window.addEventListener("load", () => {
 
     document.getElementsByClassName("game-container__inner")[0]
         .appendChild(overlay);
+
+    // couleurs utilisées :
+    // 94,179,255 : data-color=3
+    // 106,92,255 : data-color=4
+    // 180,74,192 : data-color=13
+    // 255,255,255 : data-color=30
 }, false);
