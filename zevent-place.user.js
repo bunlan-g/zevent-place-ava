@@ -2,7 +2,7 @@
 
 // @name         Zevent Place - Avamind
 // @namespace    https://github.com/bunlan-g/zevent-place-avamind
-// @version      0.1.2
+// @version      0.2.0
 // @description  Mettons de l'amour dans la vie (et sur ZPlace aussi) !
 // @author       Baron Ululating
 // @match        https://place.zevent.fr/*
