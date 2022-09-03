@@ -2,7 +2,7 @@
 
 // @name         Zevent Place - Avamind
 // @namespace    https://github.com/bunlan-g/zevent-place-avamind
-// @version      0.2.0
+// @version      0.2.1
 // @description  Mettons de l'amour dans la vie (et sur ZPlace aussi) !
 // @author       Baron Ululating
 // @match        https://place.zevent.fr/*
@@ -24,8 +24,9 @@ window.addEventListener("load", () => {
     overlay.src = `https://raw.githubusercontent.com/bunlan-g/zevent-place-avamind/master/avamindLove.png`;
     overlay.style = `position: absolute; left: ${xOffset}px; top: ${yOffset}px; image-rendering: pixelated; width: 29px; height: 32px; opacity: 1; background-color:#00000000;`;
 
-    document.getElementsByClassName("game-container__inner")[0]
-        .appendChild(overlay);
+    // TODO Placer l'overlay (à voir le jour J)
+    //document.getElementsByClassName("game-container__inner")[0]
+    //    .appendChild(overlay);
 
     // couleurs utilisées :
     // 94,179,255 : data-color=3
